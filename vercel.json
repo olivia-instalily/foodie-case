@@ -1,0 +1,23 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/data.js": {
+      "includeFiles": "foodie.db",
+      "memory": 512,
+      "maxDuration": 15
+    },
+    "api/account.js": {
+      "includeFiles": "foodie.db",
+      "memory": 512,
+      "maxDuration": 15
+    },
+    "api/book.js": {
+      "includeFiles": "foodie.db",
+      "memory": 512,
+      "maxDuration": 15
+    },
+    "api/generate.js": {
+      "maxDuration": 60
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "foodie-am-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Foodie AM Workspace — current-state prototype, data drawn live from foodie.db",
+  "scripts": {
+    "start": "node scripts/serve-local.js",
+    "preview": "node scripts/serve-local.js",
+    "vercel": "vercel dev"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.117.1",
+    "better-sqlite3": "^11.8.1"
+  }
+}

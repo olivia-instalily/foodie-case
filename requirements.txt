@@ -1,0 +1,6 @@
+# The data model (dials.py, tiers.py, generate.py, queries.py) runs on the
+# Python 3.9+ standard library only — sqlite3, math, random, pathlib, datetime.
+# There are no third-party Python dependencies to install.
+#
+# The prototype's Node dependencies (better-sqlite3, @anthropic-ai/sdk) are in
+# package.json; install them with `npm install`.

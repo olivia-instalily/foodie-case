@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# python
+__pycache__/
+*.pyc
+
+# secrets / environment
+.env
+.env.*
+!.env.example
+
+# vercel (local link + cache)
+.vercel/
+
+# local agent/editor tooling
+.claude/
+
+# os / logs
+.DS_Store
+*.log
